@@ -1,0 +1,31 @@
+h1{
+    font-size: 170%;
+}
+
+h2 {
+    font-size: 130%;
+}
+
+h1,h2 {
+
+    border-bottom: 2px dotted #888888;
+    color: #cc6600;
+    background-color: #969696;
+    font-weight: normal
+}
+
+blockquote {
+    font-size: 125%;
+    font-family: serif;
+    font-style: italic;
+}
+
+body {
+    font-size: small;
+    font-family: verdana, geneva, arial, sans-serif;
+}
+
+img {
+    border: solid 2px;
+    border-color: #cc6600;
+}

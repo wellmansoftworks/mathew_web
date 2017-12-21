@@ -1,0 +1,38 @@
+/* Matty CSS Fall 2017 */
+
+body{
+    font-family: sans-serif;
+}
+/* Paragraphs */
+p{
+    color: maroon;
+}
+
+.greentea{
+    color: green;
+}
+.blueberry{
+    color: purple;
+}
+.raspberry{
+    color: blue;
+}
+.cranberry{
+    color: red;
+}
+/* headers */
+h1,h2{
+    color: gray;
+}
+
+h1{
+    border-bottom: 1px solid black; 
+}
+/* images */
+img{
+
+}
+/* emphisis */
+em{
+    font-family: serif;
+}

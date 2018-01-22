@@ -5,8 +5,25 @@
 	<title>Image Borders</title>
 	
 	<style>
-	
-
+		img {
+			border:2px solid #000000;
+		}
+		.imageborder {
+			border: 2px dotted #33ff00;
+		}
+		.album img {
+			float: left;
+			transform: rotate(-5deg);
+			border-bottom-right-radius: 25px;
+			border-top-right-radius: 25px;
+			border-top-left-radius: 25px;
+			background-color: #800000;
+			border: 10px outset #006600;
+			height: 174px;
+			margin: 10px;
+			padding: 3px;
+			box-shadow: 10px 10px 5px #aaaaaa;
+		}
 	</style>
 	
 </head>
@@ -22,11 +39,11 @@
 		<br>
 		<br>
 		
-	
+		<div class="album">
 		<img src="images/tiger1.jpg" alt="tiger with flower" />
-		<img src="images/tiger2.jpg" alt="tiger head" style="border: none;"/>
+		<img src="images/tiger2.jpg" alt="tiger head"/>
 		<img src="images/tiger3.jpg" alt="tiger in tree" />
-
+		</div>
 
 	
 </body>

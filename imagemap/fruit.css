@@ -1,0 +1,67 @@
+body{
+    font-size: 1.125em;
+    text-shadow: 1px 1px black;
+    background: url(images/weave.jpg);
+    margin-left:50px;
+    margin-right:50px;
+}
+
+iframe{
+    border: 4px inset #660066;
+}
+
+div{
+    text-align: center;
+}
+
+img {
+    border: 4px outset #006600;
+    height: 220px;
+}
+
+.basket{
+    text-align: center;
+    height: 522px;
+    width: 720px;
+}
+
+hr{
+    border: 2px solid #F0EDA6;
+}
+
+h1,h2,em,b{
+    color: #F0EDA6;
+    font-family: serif;
+}
+
+h1,h2{
+    font-size: 3em;
+    text-shadow: 1px 1px 2px grey;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    font-family: sans-serif;
+    color:white;
+}
+
+.align{
+    text-align: center;
+}
+
+a:link{
+    color: green;
+}
+
+a:visited{
+    color: darkgreen;
+}
+
+a:hover{
+    color: lime;
+}
+
+a:active{
+    color:grey;
+}

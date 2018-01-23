@@ -3,62 +3,76 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Basic Table</title>
+	
+	<style>
+	table{
+		caption-side:bottom;
+		border: 6px solid #338ba6;
+		border-collapse: collapse;
+	}
+		
+	th,td{
+		border: 1px solid #99ccff;
+	}
+	</style>
 </head>
 <body>
 
 		<table>
-	
+			<caption>
+				Yearly income 2008-2011
+			</caption>
 			<tr>
 				<td>&nbsp;</td>
-				<td>2008</td>
-				<td>2009</td>
-				<td>2010</td>
-				<td>2011</td>
+				<th scope="col">2008</th>
+				<th scope="col">2009</th>
+				<th scope="col">2010</th>
+				<th scope="col">2011</th>
 			</tr>
 			<tr>
-				<td>Grants</td>
+				<th scope="row">Grants</th>
 				<td>11,980</td>
 				<td>12,650</td>
 				<td>9,700</td>
 				<td>10,600</td>
 			</tr>
 			<tr>
-				<td>Donations</td>
+				<th scope="row">Donations</th>
 				<td>4,780</td>
 				<td>4,989</td>
 				<td>6,700</td>
 				<td>6,590</td>
 			</tr>
 			<tr>
-				<td>Investments</td>
+				<th scope="row">Investments</th>
 				<td>8,000</td>
 				<td>8,100</td>
 				<td>8,760</td>
 				<td>8,490</td>
 			</tr>
 			<tr>
-				<td>Fundraising</td>
+				<th scope="row">Fundraising</th>
 				<td>3,200</td>
 				<td>3,120</td>
 				<td>3,700</td>
 				<td>4,210</td>
 			</tr>
 			<tr>
-				<td>Sales</td>
+				<th scope="row">Sales</th>
 				<td>28,400</td>
 				<td>27,100</td>
 				<td>27,950</td>
 				<td>29,050</td>
 			</tr>
 			<tr>
-				<td>Miscellaneous</td>
+				<th scope="row">Miscellaneous</th>
 				<td>2,100</td>
 				<td>1,900</td>
 				<td>1,300</td>
 				<td>1,760</td>
 			</tr>
 			<tr>
-				<td>Total</td>
+				<th scope="row">Total</th>
 				<td>58,460</td>
 				<td>57,859</td>
 				<td>58,110</td>
